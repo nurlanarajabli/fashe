@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+    // background-color: aquamarine;
+  width: 100%;
+
+  .containerTop {
+    width: 90%;
+    padding: auto;
+    // background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    .icons {
+      color: gray;
+      display: flex; 
+      gap: 18px;
+   
+      &:hover {
+        cursor: pointer;
+        color: brown;
+      }
+    }
+    .write  {
+        font-family: "Montserrat", sans-serif;
+       font-size: 13px;
+        font-weight:400;
+        font-style: normal   
+    }
+
+  
+  }
+
+
+
+
+
+  
+}

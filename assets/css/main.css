@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+header .containerTop {
+  width: 90%;
+  padding: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+header .containerTop .icons {
+  color: gray;
+  display: flex;
+  gap: 18px;
+}
+header .containerTop .icons:hover {
+  cursor: pointer;
+  color: brown;
+}
+header .containerTop .write {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+}
